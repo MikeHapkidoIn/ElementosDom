@@ -1,18 +1,18 @@
 // Aquí tu código
-const addButton = document.getElementById("agregar");
-const lista = document.getElementById("lista");
+const agregarBoton = document.getElementById ("agregar");
+const list = document.getElementById ("lista");
 
-addButton.addEventListener("click", function() {
+agregarBoton.addEventListener("click", function() {
     const element = prompt ("Agregar elemento:");
     
     
-    if (element !== null && element !== "") {
+    if(element !== null && element !== "") {
  
         const nuevoElemento = document.createElement("li");
  
         nuevoElemento.textContent = element;
     
-        lista.appendChild( nuevoElemento);}
+        list.appendChild( nuevoElemento);}
  
         else {
  
